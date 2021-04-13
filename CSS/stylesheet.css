@@ -3,3 +3,22 @@ body{
     display:grid;
     font-family: 'Quicksand', sans-serif;
 }
+.nav-bar{
+    color: #C71585;
+    display: flex;
+    list-style-type: none;
+    font-size:20px;
+    justify-content: flex-end;
+}
+.nav-bar li{
+    float:right;
+    margin:20px;
+}
+.nav-bar a {
+    text-decoration: none;
+}
+.nav-bar a:hover{
+    background-color: #E0FFFF;
+    text-decoration: underline;
+}
+
