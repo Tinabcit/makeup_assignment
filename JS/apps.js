@@ -16,5 +16,13 @@ function SubtractBy()
 { 
         num1 = document.getElementById("firstNumber").value;
         num2 = document.getElementById("secondNumber").value;
-        document.getElementById("result").innerHTML = value - budget;   
+        document.getElementById("result").innerHTML = num2-num1;   
+}
+// function to calculation the two amounts of the expenses.
+function calculation()
+{
+    let calculationone = parseInt(document.getElementById("budget").value);
+    let calculationtwo = parseInt(document.getElementById("secondNumber").value);
+    let totalcalculation = budget + num2
+    document.getElementById("result").innerHTML= totalcalculation;
 }
