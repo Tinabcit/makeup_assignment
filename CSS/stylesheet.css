@@ -21,4 +21,38 @@ body{
     background-color: #E0FFFF;
     text-decoration: underline;
 }
+[input=button]{
+    padding: 5px;
+    font-size:10px;
+    border:none;
+    margin-right:100px;
+    width: 10%;
+    transform: translate(100%,950%);
+    top: 20%;
+    right: 90%;
+    bottom: 90%;
+}
+
+/* Desktop Version */
+@media(max-width:1000px){
+    body {
+        background-color:#D2B48C;
+      }
+
+    .nav-bar{
+        float: none;
+        width: 100%;
+    }
+}
+
+/* Mobile Version */
+@media (max-width:500px) {
+    body{
+        background-color: #b22222;
+    }
+    .nav-bar{
+        float: none;
+        width: 100%;
+    }
+}
 
