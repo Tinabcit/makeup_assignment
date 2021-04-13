@@ -12,6 +12,28 @@
 
 </head>
 <body>
-    
+    <nav class="nav-bar">
+        <ul>
+            <li><a href="Button one"rel="Button one">First Button</a></li>
+            <li><a href="note/notes.html"rel="Button two">Second Button</a> </li>
+        </ul>
+    </nav>
+    <h1>Welcome To the Budget App</h1>
+    <form>
+    create Budge: <input type="text" id="budget" /><br>
+    <input type ="button" onClick="CreateBudget()" Value="Create Budget">
+   </form>
+   <p>Amount :<br>   
+   <span id="result-one"></span>
+    <form>
+    expense item : <input type="text" id="firstNumber" /><br>
+    expense amount: <input type="text" id="secondNumber" /><br>
+    <input type="button" onClick="AddBy()" Value="Add expense item" />
+    <input type="button" onClick="SubtractBy()" Value="Delete expense item" />
+    </form>
+    <p>The Result is : <br>
+    <span id = "result"></span>
+    </p>
+
 </body>
 </html>
