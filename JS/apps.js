@@ -4,7 +4,7 @@ function CreateBudget()
     budget = document.getElementById("budget").value;
     document.getElementById("result-one").innerHTML = budget;
 }
-// Putting the 
+// Putting the first number and find the expenses.
 function AddBy()
 {
         num1 = document.getElementById("firstNumber").value;
